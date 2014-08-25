@@ -1,0 +1,22 @@
+
+/**
+ * Drip
+ */
+
+.logo[data-logo="Drip"] {
+  width: 2.093169686em;
+  /* (379.971/181.529) * (1) - 0 */
+}
+
+.logo[data-logo="Drip"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0;
+}
+
+.logo[data-logo="Drip"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Drip"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
